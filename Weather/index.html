@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🌤 Weather App</h1>
+        <p id="dateTime"></p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <img src="assets/images/weather-banner.jpg" class="banner" alt="Weather Banner">
+
+        <div class="search-section">
+            <input type="text" id="cityInput" placeholder="Enter city name..." />
+            <button id="searchWeather">🔍 Search</button>
+        </div>
+
+        <button id="getWeather">📍 Get Current Location Weather</button>
+        <div class="loader" id="loader"></div> <!-- Loader -->
+
+        <div id="weatherDetails"></div>
+
+        <img src="assets/images/weather-illustration.png" class="illustration" alt="Weather Illustration">
+        
+        
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Weather App | Developed by Dheeraj Yadav</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
